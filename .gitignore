@@ -1,0 +1,59 @@
+# =====================================================
+# .gitignore para proyectos SQL / MySQL
+# =====================================================
+
+# Respaldos y volcados de bases de datos
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.sql.zip
+*.sql.bz2
+backup/
+backups/
+dumps/
+
+# Bases de datos locales y archivos de datos
+*.sqlite
+*.sqlite3
+*.db
+*.mdf
+*.ldf
+*.ibd
+*.frm
+*.myd
+*.myi
+
+# Registros (logs)
+*.log
+mysql-bin.*
+*.err
+*.pid
+
+# Credenciales y configuración local
+.env
+*.env
+.my.cnf
+my.cnf
+config.local.*
+secrets/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*~
+~$*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+.directory
+.Trash-*
+
+# Editores e IDE
+.vscode/
+.idea/
+*.code-workspace
+.dbeaver/
+.metadata/
